@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 import tensorflow as tf
+import tf_keras as keras_legacy
 import numpy as np
 import json
 import random
