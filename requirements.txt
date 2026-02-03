@@ -1,6 +1,6 @@
 keras
 tkintertable
-streamlit==0.90.0
+streamlit
 tensorflow==2.8.0
 numpy==1.21.0
 scikit-learn==0.24.2
