@@ -1,5 +1,5 @@
 keras
-tkinter
+tkintertable
 streamlit==0.90.0
 tensorflow==2.8.0
 numpy==1.21.0
