@@ -31,7 +31,7 @@ except json.decoder.JSONDecodeError as err:
     st.error(f"Error decoding JSON data: {err}")
 
 # Load the pre-trained flower recognition model
-model = tf.keras.models.load_model('Flower_Recog_Model.keras')
+model = keras_legacy.models.load_model('Flower_detection_model.keras')
 
 # Define flower names corresponding to the model's output classes
 flower_names = ['daisy', 'dandelion', 'rose', 'sunflower', 'tulip']
